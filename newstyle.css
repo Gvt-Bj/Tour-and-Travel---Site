@@ -1,0 +1,143 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', sans-serif;
+  }
+  
+  body {
+    background-color: #fff;
+    color: #1f1f1f;
+  }
+  
+  #navbar-section {
+    padding: 20px 60px;
+  }
+  
+  .navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .top-circle {
+    width: 25px;
+    height: 25px;
+    background-color: #00c271;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .top-inner-circle {
+    width: 10px;
+    height: 10px;
+    background-color: orange;
+    border-radius: 50%;
+  }
+  
+  .nav-ul {
+    display: flex;
+    gap: 30px;
+    list-style: none;
+    align-items: center;
+    font-size: 14px;
+  }
+  
+  .nav-ul li {
+    cursor: pointer;
+    color: #6e7582;
+  }
+  
+  .nav-ul li:first-child {
+    color: #1d1e2c;
+    font-weight: bold;
+  }
+  
+  .nav-ul button {
+    padding: 8px 20px;
+    border: 1px solid orange;
+    background-color: transparent;
+    border-radius: 6px;
+    cursor: pointer;
+  }
+  
+  .nav-ul button:last-child {
+    background-color: orange;
+    color: white;
+    margin-left: 5px;
+    border: none;
+  }
+  
+  /* Hero Section */
+  #hero-section1 {
+    padding: 40px 60px;
+  }
+  
+  .hero-flex-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .hero-content {
+    max-width: 500px;
+  }
+  
+  .hero-h1 {
+    font-size: 56px;
+    font-weight: 900;
+    color: #1d1e2c;
+    line-height: 1.2;
+    margin-bottom: 30px;
+  }
+  
+  .holiday-finder {
+    font-weight: bold;
+    margin-bottom: 6px;
+  }
+  
+  .hero-content hr {
+    width: 30px;
+    border: 1px solid #1d1e2c;
+    margin-bottom: 25px;
+  }
+  
+  .hero-div1 {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    max-width: 450px;
+  }
+  
+  .hero-div1 select,
+  .hero-div1 input[type="date"] {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    width: 200px;
+  }
+  
+  .submit-btn {
+    background-color: orange;
+    border: none;
+    padding: 12px 30px;
+    color: white;
+    font-weight: bold;
+    border-radius: 6px;
+    margin-top: 10px;
+    cursor: pointer;
+  }
+  
+  .hero-image-wrapper {
+    display: flex;
+    justify-content: flex-end;
+    flex: 1;
+    margin-left: 60px;
+  }
+  
+  .hero-image1 {
+    max-width: 85%;
+    height: auto;
+  }
